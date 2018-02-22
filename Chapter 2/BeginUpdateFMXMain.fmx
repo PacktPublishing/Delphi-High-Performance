@@ -1,0 +1,85 @@
+object frmBeginUpdate: TfrmBeginUpdate
+  Left = 0
+  Top = 0
+  Caption = 'Form10'
+  ClientHeight = 545
+  ClientWidth = 761
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListBox1: TListBox
+    Padding.Left = 16.000000000000000000
+    Padding.Top = 88.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 357.000000000000000000
+    Size.Height = 421.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 353.000000000000000000
+    Viewport.Height = 417.000000000000000000
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 388.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 357.000000000000000000
+    Size.Height = 421.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 353.000000000000000000
+    Viewport.Height = 417.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Add lines _without_ BeginUpdate'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 264.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Add lines _with_ BeginUpdate'
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Position.X = 512.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Add text'
+    OnClick = Button3Click
+  end
+  object StatusBar1: TStatusBar
+    Position.Y = 523.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 761.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object Label1: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 721.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+end
