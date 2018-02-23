@@ -10,7 +10,7 @@ By the end of the book, you will be adept with the knowledge to create High Perf
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
-No code in chapter 9
+There is no code in chapter 9.
 
 The code will look like the following:
 ```
